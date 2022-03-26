@@ -40,7 +40,9 @@ html, body {
 
 ._container {
   max-width: 1046px;
+  padding: 0 15px;
   margin: 0 auto;
+  box-sizing: content-box;
 }
 
 /*--------------------------------*/
@@ -70,16 +72,18 @@ html, body {
 }
 
 .menu {
+  padding: 5px 0;
 }
 
 .menu__list {
+  flex-wrap: wrap;
   display: flex;
 }
 
 .menu__item {
 }
 
-.menu__item:not(:last-child){
+.menu__item:not(:last-child) {
   margin: 0 21px 0 0;
 }
 
@@ -91,3 +95,29 @@ html, body {
 }
 
 /*-------------------------------------*/
+
+@media (max-width: 992px) {
+  .header__menu {
+    margin: 0 0 0 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__menu {
+    margin: 0 0 0 50px;
+  }
+}
+
+@media (max-width: 479px) {
+  .header__menu {
+    margin: 0 0 0 20px;
+  }
+
+  .menu__link {
+    font-size: 18px;
+  }
+
+  .header__container {
+    min-height: 70px;
+  }
+}
