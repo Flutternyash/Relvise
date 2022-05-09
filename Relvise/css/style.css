@@ -538,6 +538,7 @@
   .advice {
     padding: 0 0 40px 0;
   }
+
   .advice__header {
     margin: 0 0 25px 0;
   }
@@ -550,6 +551,62 @@
 }
 
 /*----------------------------------*/
+
+.page__who {
+}
+
+.who {
+}
+
+.who__container {
+}
+
+.who__header {
+}
+
+.header-block {
+}
+
+.header-block__title {
+}
+
+.header-block__sub-title {
+}
+
+.who__body {
+}
+
+.who__video {
+}
+
+.who__content {
+}
+
+.who__title {
+}
+
+.who__text {
+}
+
+.who__items {
+}
+
+.items-who {
+}
+
+.item-who__icon {
+}
+
+.item-who__body {
+}
+
+.item-who__title {
+}
+
+.item-who__text {
+}
+
+/*-----------------------------------*/
 
 .footer {
 }
