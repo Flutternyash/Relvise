@@ -1,0 +1,21 @@
+.page {
+  flex: 1 1 auto;
+}
+
+.page__main-block {
+}
+
+.page__services {
+  position: relative;
+  z-index: 2;
+  margin: -111px 0 0 0;
+}
+
+.page__better {
+}
+
+.page__advice {
+}
+
+.page__who {
+}
