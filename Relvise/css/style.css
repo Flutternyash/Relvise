@@ -544,6 +544,7 @@
 
 .who__body {
   display: flex;
+  align-items: flex-start;
 }
 
 .who__video {
@@ -563,7 +564,7 @@
 
 .who__content {
   flex: 1 1 auto;
-  padding: 0 0 0 121px;
+  padding: 20px 0 0 121px;
 }
 
 .who__top {
@@ -597,6 +598,10 @@
 
 }
 
+.who__item:not(:last-child) {
+  margin: 0 0 30px 0;
+}
+
 .item-who {
   display: flex;
 }
@@ -626,6 +631,17 @@
   line-height: 171%;
   letter-spacing: 0.2px;
   color: #737373;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 225px;
+
+}
+
+/*--------------------------------------*/
+
+@media (max-width: 1080px) {
+  
 }
 
 /*-----------------------------------*/
