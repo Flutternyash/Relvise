@@ -533,6 +533,7 @@
 
 .who {
   padding: 80px 0 130px 0;
+  background: #FFFFFF;
 }
 
 .who__container {
@@ -692,6 +693,28 @@
 }
 
 /*-----------------------------------*/
+
+.clients {
+  padding: 50px 0;
+}
+
+.clients__container {
+}
+
+.clients__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.clients__item {
+  padding: 8 15px;
+  flex: 0 1 16.6667%;
+  text-align: center;
+}
+
+/*-------------------------------------*/
 
 .footer {
 }
