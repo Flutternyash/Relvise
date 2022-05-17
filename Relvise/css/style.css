@@ -853,8 +853,7 @@
 }
 
 .touch__items {
-  display: flex;
-  align-items: center;
+  margin: 0 -15px;
 }
 
 .touch__item {
@@ -936,6 +935,35 @@
 }
 
 /*---------------------------------------------*/
+
+@media (min-width: 992px) {
+  .touch__items {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .touch__header {
+    margin: 0 0 50px 0;
+  }
+
+  .item-touch_active {
+    padding: 50px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .touch {
+    padding: 50px 0;
+  }
+
+  .touch__header {
+    margin: 0 0 50px 0;
+  }
+}
+
 /*-----------------------------------------*/
 /*-----------------------------------------/
 /*-------------------------------------*/
