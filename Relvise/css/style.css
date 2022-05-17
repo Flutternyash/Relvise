@@ -866,8 +866,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   padding: 50px 15px;
+}
+
+.item-touch_active {
+  background: #252B42;
+  color: #FFFFFF;
+}
+
+.item-touch_active .item-touch__button {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
 }
 
 .item-touch > *:not(:last-child) {
@@ -901,15 +911,10 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
-  text-align: center;
-  letter-spacing: 0.1px;
-  color: #252B42;
-
 }
 
 .item-touch__button {
   border: 1px solid #FF7B47;
-  border-radius: 5px;
   min-height: 44px;
   display: flex;
   justify-content: center;
@@ -917,14 +922,14 @@
   text-align: center;
   padding: 5px 20px;
   font-weight: 600;
-  font-size: 14px;
   line-height: 142%;
-  letter-spacing: 0.2px;
   color: #FF7B47;
   transition: all 0.3s ease 0s;
+  border-radius: 5px;
 }
 
 .item-touch__button:hover {
+  border: 1px solid #FF7B47;
   background-color: #FF7B47;
   color: #FFFFFF;
 }
