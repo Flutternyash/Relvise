@@ -871,6 +871,7 @@
 }
 
 .item-touch_active {
+  padding: 80px 15px;
   background: #252B42;
   color: #FFFFFF;
 }
